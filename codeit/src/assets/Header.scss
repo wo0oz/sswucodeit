@@ -1,0 +1,23 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    z-index: 1000;
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding: 1rem;
+
+        li {
+            cursor: pointer;
+            color: #fff;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
